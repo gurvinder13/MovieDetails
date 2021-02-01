@@ -49,7 +49,6 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchAdapter.ViewHolder
                 .placeholder(R.drawable.ic_launcher_background)).into(holder.ivCoverImage);
 
     }
-
     @Override
     public int getItemCount() {
         return listingResults.size();
